@@ -125,6 +125,10 @@ main > section h1 {
     line-height: 1.4rem;
 }
 
+.works dd {
+    line-height: 1.4rem;
+}
+
 .works img {
     width: 20vmin;
 }
