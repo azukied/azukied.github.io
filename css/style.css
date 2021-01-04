@@ -170,7 +170,16 @@ footer {
 
     /* skills */
     .skills {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills {
         font-size: 1.8rem;
+    }
+    
+    .skills > div {
+        width: 49%;
     }
     
     .study > ul > li > ul > li {
@@ -211,12 +220,12 @@ footer {
     .skills {
         font-size: 2.0rem;
     }
-    
+
     .study > ul > li > ul > li {
         font-size: 1.6rem;
     }
     
-    .container {
+    .works > dl {
         display: flex;
         justify-content: space-around;
     }
